@@ -7,6 +7,7 @@ class App extends Component {
       <div>
         <div id="header">
           <div className="title">Brian Nguyen Guide</div>
+          <div className="title">Code Foo Engineerring Guide</div>
         </div>
 
         <div id="body">
