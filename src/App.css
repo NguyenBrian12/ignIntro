@@ -5,6 +5,10 @@
 	src: url('fonts/Arapey/Arapey-Regular.woff') format('woff'), url('fonts/Arapey/Arapey-Regular.ttf') format('truetype'), url('fonts/Arapey/Arapey-Regular.svg') format('svg');
 }
 @font-face {
+	font-family: 'Marcellus';
+	src: url('fonts/Marcellus/Marcellus-Regular.ttf') format('truetype');
+}
+@font-face {
 	font-family: 'OpenSans-Light';
 	src: url('fonts/OpenSans-Light/OpenSans-Light.eot');
 	src: url('fonts/OpenSans-Light/OpenSans-Light.woff') format('woff'), url('fonts/OpenSans-Light/OpenSans-Light.ttf') format('truetype'), url('fonts/OpenSans-Light/OpenSans-Light.svg') format('svg');
@@ -33,6 +37,7 @@ body {
 	padding: 0;
 }
 .title{
+	font-family:"Marcellus";
 	justify-content: center;
 	align-content: center;
 	text-align: center;
@@ -40,13 +45,13 @@ body {
 	font-size: 50px;
 	font-weight: bolder;
 	padding: 20px;
-	
+		
 }
 .titleWalkthrough{
 	justify-content: center;
 	align-content: center;
 	text-align: center;
-	color: Red;
+	color: #BF1313;
 	font-size: 30px;
 	font-weight: bold;
 	padding: 0 10px 5px;
@@ -61,16 +66,17 @@ body {
 #header {
 	margin: 0;
 	padding: 0;
+	font-family: 'Marcellus';
 }
 #header div {
 	margin: 0 auto;
 	overflow: hidden;
-
+	font-family: 'Marcellus';
 	width: 960px;
 }
 #header div span {
 	color: #fff;
-	font-family: 'Arapey';
+	font-family: 'Marcellus';
 	font-size: 14px;
 	display: block;
 	float: left;
@@ -82,6 +88,7 @@ body {
 #header div .tagline {
 	padding: 50px 0 0 49px;
 	text-align: left;
+	font-family: 'Marcellus';
 }
 #header div a.logo {
 	display: block;
@@ -95,7 +102,7 @@ body {
 	padding: 0;
 }
 #header ul {
-	background: url(images/bg-navigation.gif) repeat-x bottom left;
+	
 	margin: 0 auto;
 	padding: 16px 0 0;
 	text-align: center;
@@ -105,18 +112,25 @@ body {
 #header ul li {
 	display: inline-block;
 	list-style: none;
-	margin: 0;
-	padding: 0;
+	padding-top: 5px;
+}
+#header #skills ul li {
+	float: left;
+	list-style: none;
+	padding-top: 5px;
+	padding-right: 50px;
 }
 #header ul li a {
-	display: inline-block;
-	font-family: 'Arapey';
-	font-size: 16px;
-	font-weight: normal;
-	margin: 0;
+	color: #BF1313;
+	float: right;
+	font-family: 'Marcellus';
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px;
 	padding: 0 25px 18px;
 	text-decoration: none;
 	text-transform: uppercase;
+	background: url(images/bg-navigation.gif) repeat-x bottom left;
 }
 .profilePic{
 	background: url(images/shadow.png) no-repeat bottom left;
@@ -125,15 +139,18 @@ body {
 	justify-content: center;
 	padding: 0 10px 38px;
 }
+
 .pic{
-	position: absolute;
+
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	width: 100%
 }
-#header ul li:hover a {
+
+#header ul li a:hover {
 	background: url(images/bg-menu.gif) repeat-x bottom left;
-	color: #ef414a;
+	color:#BF1313;
 }
 
 #body {
@@ -184,19 +201,19 @@ body {
 	-webkit-box-shadow: 0 0 5px #c9c9c9;
 }
 #body .header div ul li a {
-	color: red;
+	color: #BF1313;
 	display: block;
-	font-family: 'Arapey';
+	font-family: 'Marcellus';
 	font-size: 22px;
 	font-weight: bold;
 	height: 78px;
 	line-height: 78px;
 	text-align: center;
 	text-decoration: none;
-	text-transform: capitalize;
+
 }
 #body .header div ul li a:hover {
-	background: red;
+	background: #BF1313;
 	color: #fff;
 }
 #body .body {
@@ -237,8 +254,8 @@ body {
 	}
 #body .body .section .article h2 {
 	clear: both;
-	color: #ef414a;
-	font-family: 'Arapey';
+	color:#BF1313;
+	font-family: 'Marcellus';
 	font-size: 24px;
 	font-weight: normal;
 	margin: 0;
@@ -282,10 +299,10 @@ body {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	text-transform: capitalize;
+
 }
 #body .body .section .aside > a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body .body .section .aside b {
 	color: #144879;
@@ -320,6 +337,7 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 	width: 100%;
+	font-size: 18px;
 }
 #body .footer div {
 	background: #fff;
@@ -346,14 +364,13 @@ body {
 }
 #body .footer div h3 {
 	background: url(images/dots.gif) no-repeat bottom center;
-	color: red;
-	font-family: 'Arapey';
+	font-family: 'Marcellus';
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
 	padding: 18px 0 21px;
 	text-align: center;
-	text-transform: capitalize;
+	
 }
 #body .footer div p {
 
@@ -363,8 +380,9 @@ body {
 	padding: 13px 20px 19px;
 	text-align: center;
 }
-#body .footer div p a {
-
+#body .footer div  a {
+	font-size: 18px;
+	color: #BF1313;
 	text-decoration: underline;
 }
 
@@ -384,13 +402,12 @@ body {
 	width: 570px;
 }
 #body h2 {
-	color: #ef414a;
-	font-family: 'Arapey';
+	color:#BF1313;
+	font-family: 'Marcellus';
 	font-size: 24px;
 	font-weight: bold;
 	margin: 0;
 	padding: 21px 0 21px;
-	text-transform: capitalize;
 }
 #body .content #section > p {
 	font-size: 17px;
@@ -399,7 +416,7 @@ body {
 	padding: 0;
 }
 #body .content #section > p a {
-	color: #ef414a;
+	color:#BF1313;
 	text-decoration: none;
 }
 
@@ -428,7 +445,7 @@ body {
 	margin: 0 30px 0 0;
 }
 #body .content #section .article div h3 {
-	color: red;
+	color: #BF1313;
 	font-family: 'Arapey';
 	font-size: 18px;
 	font-weight: normal;
@@ -443,7 +460,7 @@ body {
 	padding: 0;
 }
 #body .content #section div p a {
-	color: red;
+	color: #BF1313;
 	text-decoration: underline;
 }
 #body .content #section div p a:hover {
@@ -467,7 +484,7 @@ body {
 	text-decoration: none;
 }
 #body .content #section > b a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body .content #section > ul {
 	margin: 0;
@@ -616,7 +633,7 @@ body {
 	text-transform: uppercase;
 }
 #body .content #blog ul li .article .more:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body .content #blog ul li .stats {
 	float: left;
@@ -676,7 +693,7 @@ body {
 	width: 7px;
 }
 #body .content #blog ul.paging li a:hover {
-	color: red;
+	color: #BF1313;
 }
 #body .content #blog ul.paging li.selected a {
 	background: url(images/icons.png) no-repeat -75px -115px;
@@ -896,7 +913,7 @@ body {
 	background: #ececec url(images/icons.png) no-repeat 249px -180px;
 }
 #body #content #sidebar ul li a {
-	color: #ef414a;
+	color:#BF1313;
 	display: block;
 	height: 35px;
 	font-size: 13px;
@@ -990,7 +1007,7 @@ body {
 	text-decoration: none;
 }
 #body #content #section ul li div h3 a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body #content #section a.more {
 	background: url(images/bg-more.png) no-repeat 0 0;
@@ -1140,7 +1157,7 @@ body {
 	text-decoration: none;
 }
 #body > .section > div > div b a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body > .section > div > div small {
 	color: #797979;
@@ -1227,7 +1244,7 @@ body {
 	padding: 0;
 }
 #body > .section > ul li > a:hover {
-	color: #ef414a;
+	color:#BF1313;
 	opacity: 0.8;
 }
 #body .section ul.article {
@@ -1263,7 +1280,7 @@ body {
 	text-decoration: none;
 }
 #body .section ul.article li b a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body .section ul.article li small {
 	color: #797979;
@@ -1392,7 +1409,7 @@ body {
 	padding: 0;
 }
 #body .content #sidebar .testimonials ul li > a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body .content #sidebar .contact ul {
 	border-top: 1px solid #cdcdcd;
@@ -1460,7 +1477,7 @@ body {
 	text-transform: capitalize;
 }
 #body .content #sidebar .category ul li a:hover, #body .content #sidebar .posts ul li a:hover, #body .content #sidebar .tweets ul li a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #body .content #sidebar .tweets ul li {
 	background: url(images/icons.png) no-repeat 0 -275px;
@@ -1500,7 +1517,7 @@ body {
 	text-decoration: none;
 }
 #footer a:hover {
-	color: #ef414a;
+	color:#BF1313;
 }
 #footer div ul {
 	display: inline-block;

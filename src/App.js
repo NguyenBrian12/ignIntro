@@ -7,48 +7,44 @@ class App extends Component {
       <div>
         <div id="header">
           <div className="title">Brian Nguyen Guide</div>
-          <ul>
-            <li>
-              <a href="#introduction">Introduction</a>
-            </li>
-            <li>
-              <a href="#notable">Notable Achievements</a>
-            </li>
-            <li>
-              <a href="#passion">Passion for IGN</a>
-            </li>
-            <li>
-              <a href="#candidate">Exceptional Candidate</a>
-            </li>
-            <li>
-              <a href="#question">Code Foo Question 2</a>
-            </li>
-            <li>
-              <a href="#resources">Resources</a>
-            </li>
-          </ul>
         </div>
 
         <div id="body">
-          <div class="header">
+          <div id="header">
             <div className="profilePic">
               <img
                 src="https://i.imgur.com/jeF4RfJ.jpg"
-                width="275px"
-                height="400px"
+                width="400px"
+                height="550px"
                 alt=""
               />
+
+              <ul>
+                <li>
+                  <a href="#introduction">Introduction</a>
+                  <br />
+                  <a href="#notable">Notable Achievements</a>
+                  <br />
+                  <a href="#passion">Passion for IGN</a>
+                  <br />
+                  <a href="#candidate">Exceptional Candidate</a>
+                  <br />
+                  <a href="#question">Code Foo Question 2</a>
+                  <br />
+                  <a href="#resources">Resources</a>
+                </li>
+              </ul>
             </div>
-            <div className="titleWalkthrough">Walkthrough Skills</div>
+
             <div className="pic">
               <img
-                src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/final-fantasy-ix/6/62/Btmimg.jpg?width=1920&fbclid=IwAR30vQfSV9v6PwL37XJypXu0ObnYc7Rg5uRBDmxhNWo1zyuSDffLfrRMG1E"
+                src="https://i.imgur.com/7FTNrkr.png"
                 width="640px"
                 height="89px"
                 alt=""
               />
             </div>
-            <div>
+            <div id="skills">
               <ul>
                 <li>
                   <a>React</a>
