@@ -21,7 +21,7 @@ class App extends Component {
             <div className="profilePic">
               <img
                 src="https://i.imgur.com/jeF4RfJ.jpg"
-                width="400px"
+                width="380px"
                 height="550px"
                 alt=""
               />
@@ -83,15 +83,16 @@ class App extends Component {
                   using Redux to store user information to other components,
                   developed a full stack chat app between administrators and
                   tenants with socket.io, implemented an image and file uploader
-                  to store images and files for business owners to create social
-                  media posts using AWS-SDK, and launched a volunteer portal at
-                  Make-A-Wish using MERN tech stack for Hack-A-Wish 2019.
+                  for business owners to create social media posts using
+                  AWS-SDK, and launched a volunteer portal at Make-A-Wish using
+                  MERN tech stack for Hack-A-Wish 2019.
                 </div>
                 <h2 id="passion">Passion for IGN</h2>
                 <div>
-                  As a user of IGN’s platform, I have a clear understanding of
-                  the user’s experience which I can implement into developing a
-                  strong user interface.
+                  IGN continues to develop a platform that demonstrates why they
+                  are the gold standard for game reviews. I have a clear
+                  understanding of the quality of content IGN strives to produce
+                  which I will embody into my work as a Code Foo intern.
                 </div>
                 <h2 id="candidate">Exceptional Candidate</h2>
                 <div>
