@@ -6,8 +6,14 @@ class App extends Component {
     return (
       <div>
         <div id="header">
-          <div className="title">Brian Nguyen Guide</div>
-          <div className="title">Code Foo Engineerring Guide</div>
+          <div className="center">
+            <img
+              src="https://i.imgur.com/17bfphi.png"
+              width="570px"
+              height="130px"
+              alt="pic"
+            />
+          </div>
         </div>
 
         <div id="body">
