@@ -8,7 +8,7 @@ class App extends Component {
         <div id="header">
           <div className="center">
             <img
-              src="https://i.imgur.com/17bfphi.png"
+              src="https://i.imgur.com/oJrjZ4X.png"
               width="570px"
               height="130px"
               alt="pic"
