@@ -11,7 +11,7 @@ class App extends Component {
               src="https://i.imgur.com/oJrjZ4X.png"
               width="570px"
               height="130px"
-              alt="pic"
+              alt=""
             />
           </div>
         </div>
@@ -21,8 +21,8 @@ class App extends Component {
             <div className="profilePic">
               <img
                 src="https://i.imgur.com/jeF4RfJ.jpg"
-                width="380px"
-                height="550px"
+                width="40%"
+                height="40%"
                 alt=""
               />
 
